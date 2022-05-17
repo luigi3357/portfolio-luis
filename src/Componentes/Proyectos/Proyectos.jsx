@@ -94,8 +94,8 @@ export default function Project() {
                 ayude en la resolución de problemas y componentes en el front-end. </p>                         
                 
             <div className="buttons">
-              <a href="https://library-dogs.vercel.app/Home" target="_blank" className="button button--primary">Demo</a>
-              <a href="https://github.com/luigi3357/pi-Dogs" target="_blank" className="button button--ghost">Codigo</a>
+              <a href="https://demopetcare.vercel.app/" target="_blank" className="button button--primary">Demo</a>
+              <a href="https://github.com/luigi3357/Pet-Care-React-Js" target="_blank" className="button button--ghost">Codigo</a>
             </div>
           </div>
           

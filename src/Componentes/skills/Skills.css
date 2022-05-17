@@ -1,0 +1,108 @@
+.skills{
+    padding: 0.5em 0;
+}
+.card-skills{
+    padding: 1em;
+    margin-top: .5em;
+    background-color: var(--bg-card-color);
+    border-radius: var(--border-radius);
+    word-wrap: break-word;
+    /* margin-bottom: 5em; */
+}
+@media screen and (min-width:320px) {
+    .card-skills{
+        display: block;
+        min-width: 310px;
+    }
+}
+
+.icon{
+    margin-right: 1em;
+}
+
+/*barra*/
+
+.skills__tech{
+    margin: 0;
+    font-size: .5rem;
+}
+
+.skills__item{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-height: 34px;
+    /* margin: 0; */
+}
+
+.skills__bar, .skills__bar::after{
+    position: relative;
+    width: 175px;
+    height:8px;
+    background-color: #888;
+    border-radius: var(--border-radius);
+    overflow: hidden;
+}
+
+.skills__bar::after{
+    content: "";
+    position: absolute;
+    left: -175px;
+    background-color: var(--primary-color);
+    transition: var(--transition);
+    animation: skills-bar-fill 2s ease-in-out forwards;
+}
+.skills__bar--10::after{
+  --skills-bar-length:10%;
+}
+
+.skills__bar--20::after{
+    --skills-bar-length:20%;
+  }
+
+  .skills__bar--30::after{
+    --skills-bar-length:30%;
+  }
+
+  .skills__bar--40::after{
+    --skills-bar-length:40%;
+  }
+
+  .skills__bar--50::after{
+    --skills-bar-length:50%;
+  }
+
+  .skills__bar--60::after{
+    --skills-bar-length:60%;
+  }
+
+  .skills__bar--70::after{
+    --skills-bar-length:70%;
+  }
+
+  .skills__bar--80::after{
+    --skills-bar-length:80%;
+  }
+
+  .skills__bar--90::after{
+    --skills-bar-length:90%;
+  }
+  
+  
+/* .skills__bar--70::after{
+    transform: translateX(var(--skills-bar-length));
+} */
+
+.skills__header{
+    display: flex;
+    justify-content: space-between;
+    width: 175px;
+    margin-left: auto;
+}
+
+
+@keyframes skills-bar-fill {
+    to{
+        transform: translateX(var(--skills-bar-length));
+    }
+}

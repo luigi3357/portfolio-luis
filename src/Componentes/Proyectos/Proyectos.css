@@ -1,0 +1,59 @@
+/*Proyectos*/
+@media screen and (min-width:720px) {
+    
+    .project{
+        margin-left: 2em;        
+    }
+    .project__tags{
+        width: 325px;
+        font-size: 0.8rem;
+    }
+    .buttons{
+        /* position: absolute; */
+        bottom: 1em;
+    }
+    }
+    
+    .project__tag{
+        padding: 0.4em 0.8em;
+        border-radius: var(--border-radius);
+        background-color: var(--primary-color);
+        color:var(--bg-color);
+        margin-left: 1em;
+    }
+    
+    .project__tags {
+        display: flex;
+        justify-content: space-between;
+        margin: 0.5em 0;
+        font-size: 0.6rem;
+        width: 275px;
+    }
+    
+    .buttons{
+        display: flex;
+        justify-content: space-between;
+        width: 225px;
+    }
+    
+    .button{
+        width: 100px;
+        line-height: 2.5;
+        text-align: center;
+        border-radius: var(--border-radius);
+        transition: var(--transition);
+    }
+    
+    .button--primary {
+        background-color: var(--primary-color);
+        color: var(--bg-color);
+    }
+    
+    .button--ghost{
+     background-color: transparent;
+     border: 1px solid var(--primary-color);
+     color: var(--primary-color);
+    }
+    .project{
+        /* position: relative; */
+    }

@@ -65,7 +65,8 @@ img {
     height: 55px;
     padding: 0 1.5em;
     background-color: var(--bg-card-color);
-    transition: var(--transition)
+    transition: var(--transition);
+    Z-index: 3;
 }
 
 .switches {
@@ -227,22 +228,32 @@ img {
         display: block;
         padding-top: 70px;
     }
+    .column--right{
+    margin-left: 1em;
+    }
 }
 @media screen and (min-width:700px) {
     .container-home{
         display: flex;
         padding-top: 70px;
     }
+    .container-home2 {
+        position: fixed;
+    }
+    .column--right {
+        margin-left: 37%;
+    }
+    
 }
 
 .container-home2 {
     max-width: 35%;
     margin-left: .3em;
     padding-bottom: 3em;
+
 }
 
 .column--right {
-    margin-left: 1em;
     width: 65%;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3, min-content);

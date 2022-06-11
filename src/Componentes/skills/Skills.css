@@ -8,6 +8,8 @@
     border-radius: var(--border-radius);
     word-wrap: break-word;
     /* margin-bottom: 5em; */
+    width:95%;
+    margin-bottom: 10px;
 }
 @media screen and (min-width:320px) {
     .card-skills{

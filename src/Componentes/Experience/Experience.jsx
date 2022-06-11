@@ -37,6 +37,8 @@ export default function Experience(){
                 de pc ,etc y respecto a los celulares tambien realize el mismo trabajo...</p>
             </div>
           </div>
+          <div class="experience2"></div>
+
         </article>
         </div>
     )

@@ -29,11 +29,20 @@
         font-size: 0.6rem;
         width: 275px;
     }
+    .project__tags2{
+        display: flex;
+        /* justify-content: space-between; */
+        margin: 0.5em 0;
+        font-size: 0.6rem;
+        width: 275px;
+    }
     
     .buttons{
         display: flex;
         justify-content: space-between;
-        width: 225px;
+        width: 100%;
+        margin-top: 10px;
+        margin-bottom: 10px;
     }
     
     .button{

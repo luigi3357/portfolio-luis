@@ -3,13 +3,16 @@
     width:100%;
     align-items: start;
     margin-bottom: 1em;
-    padding: 1em;
+    padding: 1em ;
     border: 2px solid var(--primary-color);
     border-radius: var(--border-radius);
     transition: var(--transition)
 }
+.experience2{
+    display: flex;
+}
 .card-experience{
-    padding: 1em;
+    padding: 2em ;
     /* margin-top: .5em; */
     /* background-color: var(--bg-card-color); */
     /* border-radius: var(--border-radius); */

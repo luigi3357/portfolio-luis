@@ -1,5 +1,6 @@
 .card{
-    padding: 1em;
+    padding: 1em 1em 0px 1em;
+    /* padding-bottom: none; */
     margin-top: .5em;
     background-color: var(--bg-card-color);
     border-radius: var(--border-radius);
@@ -22,7 +23,7 @@
     justify-content: center;
 }
 .card__image--img{
-    height: 15em;
+    height: 14em;
 }
 .card__header{
     display: grid;
@@ -40,9 +41,11 @@
 }
 .card__link {
     padding-bottom: .5em;
+    font-size: 0.9rem;
+
 }
 .card__text{
-    font-size: 0.9rem;
+    font-size: 0.8rem;
     line-height: 1.5;
 }
 @media screen and (min-width:720px) {

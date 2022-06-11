@@ -7,26 +7,19 @@ export default function Project() {
     return (
         <div >
             <article className="card-skills card--project">
-          <div className="card__image-container">
-            <img src={LibraryDogs} alt="Landing page" className="card__image2"/>
-          </div>
+          
 
           <div className="project">
             <div className="project__tags">
               <span className="project__tag">JavaScript</span>
               <span className="project__tag">React</span>
-              <span className="project__tag">Redux</span>              
-            </div>
-            <div className="project__tags">
-              
+              <span className="project__tag">Redux</span> 
               <span className="project__tag">CSS</span>
-              <span className="project__tag">NodeJS</span>
+              <span className="project__tag">NodeJS</span> 
               <span className="project__tag">Express</span>
-              
             </div>
-            <div className="project__tags">
-              
-             
+          
+            <div className="project__tags2"> 
               <span className="project__tag">Sequelize</span>
               <span className="project__tag">PostgreSQL</span>
             </div>
@@ -41,46 +34,41 @@ export default function Project() {
               🔹 Posibilidad de crear y eliminar nuevas razas.<br/>
               </p>
 
-            <div className="buttons">
+              <div className="buttons">
               <a href="https://library-dogs.vercel.app/Home" target="_blank" className="button button--primary">Demo</a>
               <a href="https://github.com/luigi3357/pi-Dogs" target="_blank" className="button button--ghost">Codigo</a>
             </div>
           </div>
+          <div className="card__image-container">
+            <img src={LibraryDogs} alt="Landing page" className="card__image2"/>
+          </div>
+          
           
         </article>
 
-        <article className="card-skills card--project">
-          <div className="card__image-container">
-            <img src={petcare} alt="Landing page" className="card__image2"/>
-          </div>
+        <article className="card-skills card--project">          
 
           <div className="project">
             <div className="project__tags">
               <span className="project__tag">JavaScript</span>
               <span className="project__tag">React</span>
               <span className="project__tag">Redux</span>
-                     
-              
-            </div>
-            <div className="project__tags">          
-            <span className="project__tag">Express</span>
+              <span className="project__tag">Express</span>
               <span className="project__tag">Sequelize</span>
-              <span className="project__tag">Auth0</span><br/>    
-             
-
+            <span className="project__tag">PostgreSQL</span> 
+            <span className="project__tag">NodeJS</span>
+              <span className="project__tag">Auth0</span><br/>  
             </div>
-            <div className="project__tags">         
-               
+            
+            <div className="project__tags2">  
               <span className="project__tag">Nodemailer</span>              
-            <span className="project__tag">PostgreSQL</span>
+              <span className="project__tag">CSS</span>
               <span className="project__tag">Mercado Pago</span>
-
             </div>
             
             <div className="project__tags">
               
-              <span className="project__tag">CSS</span>
-              <span className="project__tag">NodeJS</span>
+              
               
               
             </div>
@@ -97,6 +85,9 @@ export default function Project() {
               <a href="https://demopetcare.vercel.app/" target="_blank" className="button button--primary">Demo</a>
               <a href="https://github.com/luigi3357/Pet-Care-React-Js" target="_blank" className="button button--ghost">Codigo</a>
             </div>
+          </div>
+          <div className="card__image-container">
+            <img src={petcare} alt="Landing page" className="card__image2"/>
           </div>
           
         </article>
